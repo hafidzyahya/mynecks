@@ -14,15 +14,9 @@ spec:
     spec:
       containers:
         - name: client
-          image: us.gcr.io/ticketing-dev-326916/client
-          # image: hafidzyahya/client
-          # env:
-          #   - name: JWT_KEY
-          #     valueFrom:
-          #       secretKeyRef:
-          #         name: jwt-secret
-          #         key: JWT_KEY
----
+          # image: us.gcr.io/ticketing-dev-326916/client
+          image: hafidzyahya/client
+
 apiVersion: v1
 kind: Service
 metadata:
