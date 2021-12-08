@@ -17,6 +17,7 @@ spec:
           # image: us.gcr.io/ticketing-dev-326916/client
           image: hafidzyahya/client
 
+---
 apiVersion: v1
 kind: Service
 metadata:
